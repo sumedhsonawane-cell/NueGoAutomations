@@ -49,6 +49,7 @@ driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
     homePage = new HomePage(driver);
     bookingPage = new BusBookingPage(driver);
     filtersPage = new Filters(driver);
+    
     seatPointsPage = new SelectSeatPoints(driver);
 }
 
